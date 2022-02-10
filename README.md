@@ -21,3 +21,45 @@ All the things that I am doing and trying in the first week of CodingDojo. Shoul
     <p><em>Get</em> you <strong>some!</strong></p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Foods</title>
+</head>
+<body>
+    <h1> <em>Favorite</em> foods:</h1>
+    <ul>
+        <li>Tacos</li>
+        <li>Chicken Wings</li>
+        <li>Smoothies</li>
+        <li>Pizza</li>
+    </ul>
+    <h2><em>Least</em> Favorite Foods</h2>
+    <ol>
+        <li>All Onions</li>
+        <li>Liver</li>
+        <li>Fava Beans</li>
+        <li>Limes</li>
+    </ol>
+<table>
+    <tr>
+        <th>Food</th>
+        <th>Rating</th>
+        <th>Will Eat Again</th>
+    </tr>
+    <tr>
+        <td>Tacos</td>
+        <td>10</td>
+        <td>YES</td>
+    </tr>
+    <tr>
+        <td>Onions</td>
+        <td>-10</td>
+        <td>Never</td>
+    </tr>
+</table>
+</body>
+</html>
