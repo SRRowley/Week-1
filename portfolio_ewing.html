@@ -5,58 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <style>
+        table, th, td {border: .5px solid black; border-collapse: collapse;}
+    </style>
 </head>
 <body>
     <h1>Sara Ewing</h1>
         <img src="imgs\Self 1.jpg" alt="Photo of Sara">
-    <h2>
-        <ul>
-            <li>
-                <a href="https://github.com/SRRowley/Week-1/blob/main/ewing_sara_registration_form.html">my github</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/sara-ewing-057731231/">my linkedin</a>
-            </li>
-            <li>
-                <a href="sara.r.rowley@gmail.com">My Email</a>
-            </li>
-        </ul>
-    </h2>
-    <h3>
-        <p>Hey everyone! There really isn't a lot I have to say about myself. I am an avid reader and my children are my world. I am looking for a new career path and chose coding for the mental, and aparently emotional, challenge.</p>
-    </h3>
-    <label for="table"><strong>Hobbies</strong></label>
-    <style>
-        table, th, td {
-        border: .5px solid black;}
-    </style>
-    <table style="width: 75%;">
-        <tr>
-            <th>Personal</th>
-            <th>Family</th>
-            <th>Friends</th>
-            <th>Professional</th>
-        </tr>
-        <tr>
-            <td>Reading</td>
-            <td>Traveling</td>
-            <td>Game Nights</td>
-            <td>Writing</td>
-        </tr>
-        <tr>
-            <td>Crochet</td>
-            <td>Crafts</td>
-            <td>Karaoke</td>
-            <td>Teaching</td>
-        </tr>
-        <tr>
-            <td>Yoga</td>
-            <td>Board Games</td>
-            <td>Geocaching</td>
-            <td>Learning</td>
-        </tr>
-    </table>
-    <label for="form"><strong>Contact Me</strong></label>
+    <ul>
+        <li>
+            <a href="https://github.com/SRRowley/Week-1/blob/main/ewing_sara_registration_form.html">my github</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/sara-ewing-057731231/">my linkedin</a>
+        </li>
+        <li>
+            <a href="sara.r.rowley@gmail.com">My Email</a>
+        </li>
+    </ul>
+    <p>Hey everyone! There really isn't a lot I have to say about myself. I am an avid reader and my children are my world. I am looking for a new career path and chose coding for the mental, and aparently emotional, challenge.
+    </p>
+    <label><strong>Hobbies</strong></label>
+        <table>
+            <tr>
+                <th>Personal</th>
+                <th>Family</th>
+                <th>Friends</th>
+                <th>Professional</th>
+            </tr>
+            <tr>
+                <td>Reading</td>
+                <td>Traveling</td>
+                <td>Game Nights</td>
+                <td>Writing</td>
+            </tr>
+            <tr>
+                <td>Crochet</td>
+                <td>Crafts</td>
+                <td>Karaoke</td>
+                <td>Teaching</td>
+            </tr>
+            <tr>
+                <td>Yoga</td>
+                <td>Board Games</td>
+                <td>Geocaching</td>
+                <td>Learning</td>
+            </tr>
+        </table>
+    <label><strong>Contact Me</strong></label>
     <form action="/process" method="post">
         <div>
             <label>Your Name: </label>
@@ -67,7 +63,7 @@
             <input type="text" name="email">
         </div>
         <div>
-            <label for="textarea">Message: </label>
+            <label>Message: </label>
             <textarea name="message" id="message" cols="30" rows="2"></textarea>
         </div>
         <input type="submit" value="Conact Me">
