@@ -1,0 +1,21 @@
+h1 {
+    background-color: black;
+    color: turquoise;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 span {color: blanchedalmond;
+}
+h2 {
+    text-align: center;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    background-color: cadetblue;
+    text-align: right;
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
