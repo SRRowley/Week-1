@@ -1,0 +1,57 @@
+* {
+    font-family: fantasy;
+}
+.container {
+    background-color: aquamarine;
+    width: 795px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 5px;
+    border-top: 5px solid black;
+}
+.primaries {
+    background-color: whitesmoke;
+    height: 200px;
+    width: 750px;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.primaries img {
+    display: inline;
+    width: 23%;
+    margin: 45px;
+}
+.secondaries {
+    background-color: palevioletred;
+    height: 200px;
+    width: 750px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.secondaries img {
+    display: inline;
+    margin: 25px;
+    width: 23%;
+}
+.third {
+    background-color: rgb(231, 144, 29);
+    height: 200px;
+    width: 750px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.third img {
+    display: inline;
+    margin: 45px;
+    width: 23%;
+}
+.exit {
+    font-size: medium;
+    text-align: center;
+}
