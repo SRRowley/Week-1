@@ -33,13 +33,16 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .user-card {
     width: 500px;
-    height: 400px;
+    height: 375px;
     border-color: lightslategray;
     border-style: solid;
     display: inline;
+    justify-content: flex-start;
 }
 .user-card h1 {
     margin-top: -30px;
@@ -55,6 +58,10 @@ body {
 }
 .user-card p {
     margin-top: -30px;
+}
+.user-card p img {
+    width: 5%;
+    margin-bottom: -15px;
 }
 .top {
     background-color: aquamarine;
@@ -77,4 +84,77 @@ body {
     width: 200%;
     margin-left: -43px;
     margin-top: 2px;
+}
+.requests {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color: grey;
+}
+.requests ul {
+    list-style: none;
+}
+.requests li {
+    display: flex;
+    align-items: center;
+}
+.requests img {
+    width: 5%;
+}
+.top-2 {
+    background-color: rgb(41, 49, 58);
+    color: aliceblue;
+    display: flex;
+    height: 65px;
+    margin: -15px;
+    display: flex;
+    align-items: center;
+}
+.bubble {
+    border-radius: 100px;
+    background-color: grey;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    margin-bottom: -15px;
+}
+.education {
+    border-style: solid;
+    border-color: grey;
+    height: auto;
+}
+.top-3 {
+    background-color: rgb(41, 49, 58);
+    color: aliceblue;
+    margin: -15px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.connections {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color: grey;
+}
+.connections img {
+    width: 10%;
+}
+.connections ul {
+    list-style: none;
+}
+.connections li {
+    display: flex;
+    align-items: center;
+}
+.top-4 {
+    background-color: rgb(41, 49, 58);
+    color: aliceblue;
+    margin: -15px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
 }
